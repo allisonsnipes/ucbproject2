@@ -14,47 +14,42 @@ CREATE TABLE persons (
 INSERT INTO persons
   (first_name, last_name, age, date_missing, organization, country_origin)
 VALUES
-  ("Acquitte", "Kisembo", 28, 06-26-2003, "Agence France
--Presse", "Congo");
+  ("Acquitte", "Kisembo", 28, 06-26-2003, "Agence France-Presse", "Congo");
+
 INSERT INTO persons
-(first_name, last_name, age, date_missing, organization, country_origin
-)
+(first_name, last_name, age, date_missing, organization, country_origin)
 VALUES
-  ("Ahmed", "AlDulami", 28, 06
--26-2003, "Agence France
--Presse", "Congo");
+  ("Ahmed", "AlDulami", " ", 06-01-2014, "Freelance", "Iraq");
+
 INSERT INTO persons
-(names, age, date_missing, organization, country_origin)
+(first_name, last_name, age, date_missing, organization, country_origin)
 VALUES
-  ("Lock Picks", "Hacking Supplies", 30.00, 1);
+  ("Adam", "Tepsurg", "", "El Imparcial", "Mexico");
+
 INSERT INTO persons
-(names, age, date_missing, organization, country_origin)
+(first_name, last_name, age, date_missing, organization, country_origin)
 VALUES
   ("Port Sniffing Guide", "Hacking Supplies", 80.00, 2);
+
 INSERT INTO persons
-(names, age, date_missing, organization, country_origin)
+(first_name, last_name, age, date_missing, organization, country_origin)
 VALUES
   ("Surface Pro", "Computers", 900.00, 6);
+
 INSERT INTO persons
-(names, age, date_missing, organization, country_origin)
+(first_name, last_name, age, date_missing, organization, country_origin)
 VALUES
   ("Macbook Pro", "Computers", 2700.00, 9);
+
 INSERT INTO persons
-(names, age, date_missing, organization, country_origin)
+(first_name, last_name, age, date_missing, organization, country_origin)
 VALUES
   ("Dot Grid Journal", "Stationary", 20.00, 4);
+
 INSERT INTO persons
-(names, age, date_missing, organization, country_origin)
+(first_name, last_name, age, date_missing, organization, country_origin)
 VALUES
   ("Muji Pens", "Stationary", 10.00, 5);
-INSERT INTO persons
-(names, age, date_missing, organization, country_origin)
-VALUES
-  ("Hoodie", "Clothing", 40, 7);
-INSERT INTO persons
-(names, age, date_missing, organization, country_origin)
-VALUES
-  ("Sweat Pants", "Clothing", 15.00, 3);
 
 CREATE TABLE countries (
   countryId INT AUTO_INCREMENT,
