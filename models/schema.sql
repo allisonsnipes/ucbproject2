@@ -3,7 +3,8 @@ CREATE DATABASE missing_db;
 USE missing_db;
 
 CREATE TABLE persons (
-  names VARCHAR(50) NOT NULL,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
   age INT NOT NULL,
   date_missing SELECTCONVERT(VARCHAR, GETDATE(), 1),
   organization VARCHAR(50) NOT NULL,
@@ -11,13 +12,17 @@ CREATE TABLE persons (
 );
 
 INSERT INTO persons
-  (names, age, date_missing, organization, country_origin)
+  (first_name, last_name, age, date_missing, organization, country_origin)
 VALUES
-  ("Ahmed", "Electronics", 75.00, 5);
+  ("Acquitte", "Kisembo", 28, 06-26-2003, "Agence France
+-Presse", "Congo");
 INSERT INTO persons
-(names, age, date_missing, organization, country_origin)
+(first_name, last_name, age, date_missing, organization, country_origin
+)
 VALUES
-  ("External Hard Drive", "Electronics", 200.00, 3);
+  ("Ahmed", "AlDulami", 28, 06
+-26-2003, "Agence France
+-Presse", "Congo");
 INSERT INTO persons
 (names, age, date_missing, organization, country_origin)
 VALUES
