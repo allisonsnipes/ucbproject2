@@ -40,7 +40,7 @@ There are two users in our story: the journalists who wish to report on the abdu
 * Using Bootstrap
 1. Navbar 
 2. Main Section - for forms 
-3. Aside Section - to display photos
+3. Aside Section - to display stats of who was found, who was reported, who is still missing.
 4. Input textbox for information
 
 ## Technology Used
